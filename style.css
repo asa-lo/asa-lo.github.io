@@ -1,49 +1,114 @@
 body {
   background-color: #fdfdfd;
-  padding-top: 10%;
+  padding-top: 5%;
   padding-left: 30%;
   padding-right: 30%;
 }
+
 h1, h2 {
   color: #000000;
 }
+
+h1 {
+  font-size: 2.7vw;
+}
+
+h2 {
+  font-size: 1.7vw;
+}
+
 p {
   color: #333333;
-  font-size: 1.5em;
+  font-size: 1.5vw;
 }
 
 a:link {
-    text-decoration: none;
-  }
-  
-  a:visited {
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  a:active {
-    text-decoration: underline;
-  }
+  text-decoration: none;
+}
 
-  /* unvisited link */
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/* unvisited link */
+
 a:link {
+  color: #333333;
+}
+
+/* visited link */
+
+a:visited {
+  color: #333333;
+}
+
+/* mouse over link */
+
+a:hover {
+  color: #999999;
+}
+
+/* selected link */
+
+a:active {
+  color: #333333;
+}
+
+.material-icons {
+  font-size: 1.5vw;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  h1 {
+    font-size: 7.5vw;
+  }
+  
+  h2 {
+    font-size: 6.5vw;
+  }
+  
+  p {
     color: #333333;
+    font-size: 5vw;
+  }
+.material-icons {
+  font-size: 5vw;
+}
+  
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1200px) {
+  body {
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  h1 {
+    font-size: 5.5vw;
   }
   
-  /* visited link */
-  a:visited {
-    color: none;
+  h2 {
+    font-size: 4.5vw;
   }
   
-  /* mouse over link */
-  a:hover {
-    color: #999999;
+  p {
+    color: #333333;
+    font-size: 3vw;
   }
-  
-  /* selected link */
-  a:active {
-    color: none;
-  }
+.material-icons {
+  font-size: 3vw;
+}
+}
