@@ -1,9 +1,13 @@
+/*CSS Åsa Lodesjö MIUN 2020*/
+
 body {
   background-color: #fdfdfd;
   padding-top: 5%;
   padding-left: 30%;
   padding-right: 30%;
 }
+
+/*Headings*/
 
 h1, h2 {
   color: #000000;
@@ -21,6 +25,8 @@ p {
   color: #333333;
   font-size: 1.5vw;
 }
+
+/*Links*/
 
 a:link {
   text-decoration: none;
@@ -62,9 +68,13 @@ a:active {
   color: #333333;
 }
 
+/*Icons*/
+
 .material-icons {
   font-size: 1.5vw;
 }
+
+/*Mobile*/
 
 @media only screen and (max-width: 800px) {
   body {
