@@ -85,19 +85,16 @@ a:active {
   h1 {
     font-size: 7.5vw;
   }
-  
   h2 {
     font-size: 6.5vw;
   }
-  
   p {
     color: #333333;
     font-size: 5vw;
   }
-.material-icons {
-  font-size: 5vw;
-}
-  
+  .material-icons {
+    font-size: 5vw;
+  }
 }
 
 @media only screen and (min-width: 801px) and (max-width: 1200px) {
@@ -109,16 +106,14 @@ a:active {
   h1 {
     font-size: 5.5vw;
   }
-  
   h2 {
     font-size: 4.5vw;
   }
-  
   p {
     color: #333333;
     font-size: 3vw;
   }
-.material-icons {
-  font-size: 3vw;
-}
+  .material-icons {
+    font-size: 3vw;
+  }
 }
